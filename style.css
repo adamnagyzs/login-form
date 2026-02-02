@@ -1,5 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-image: url("MEDIA/background.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  background-color: rgb(250, 248, 245);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
 }
